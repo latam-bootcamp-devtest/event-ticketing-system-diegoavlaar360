@@ -1,7 +1,7 @@
 import { create } from "zustand";
-import { persist } from "zustand/middleware";
+// import { persist } from "zustand/middleware";
 
-export const useEventStore = create(persist((set) => ({
+export const useEventStore = create((set) => ({
     idEvent: 0,
     verifyIdEvent: (id) => {
         console.log(id)
@@ -9,6 +9,4 @@ export const useEventStore = create(persist((set) => ({
             idEvent: id
         }))
     },
-}), {
-    name: 'event-storage'
 }))

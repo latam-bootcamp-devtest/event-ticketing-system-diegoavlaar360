@@ -29,6 +29,23 @@ export default function useEvents() {
         }
     }
 
+    const fetchBook = async () => {
+        try {
+            const newBook = {
+                "applicationId": "6432a3df-02f5-4330-8bd8-9bc8e258b89e",
+                "userId": "d84f4401-9f9a-4481-a56b-a738d91f4e12",
+                "eventId": "",
+                "ticketQuantity": 0,
+                "customerName": "string"
+              };
+
+        } catch (error) {
+            console.error("Error fetching the detail of the event.", error);
+            return null;
+        }
+    }
+
+
     return {
         fetchEvents,
         results,
