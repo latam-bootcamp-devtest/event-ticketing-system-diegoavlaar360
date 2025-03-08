@@ -1,0 +1,24 @@
+.list-displayevents{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.card-displayevents{
+    height: 24rem;
+    width: 18rem;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.card-displayevents img{
+    height: 12rem;
+}
+
+.text-displayevents{
+    padding: 2rem;
+}
+
+.text-displayevents p{
+    margin: 1rem;
+}

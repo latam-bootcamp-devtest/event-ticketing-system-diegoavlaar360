@@ -1,0 +1,22 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --primary: #2f2c79;
+  --secondary: #675cb0;
+  --terciary: #cabef4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--terciary);
+  font-family: "Montserrat", sans-serif;
+}
